@@ -4,6 +4,17 @@ import { DictionaryResource } from '@/typings'
 // 中国考试
 const chinaExam: DictionaryResource[] = [
   {
+    id: 'tomly',
+    name: 'MM',
+    description: '个人自定义整理',
+    category: 'wiseglobal',
+    tags: ['超市'],
+    url: 'MM_T.json',
+    length: 60,
+    language: 'en',
+    languageCategory: 'en',
+  },
+  {
     id: 'cet4',
     name: 'CET-4',
     description: '大学英语四级词库',
@@ -534,7 +545,7 @@ const internationalExam: DictionaryResource[] = [
     length: 2536,
     language: 'en',
     languageCategory: 'en',
-  }, 
+  },
   {
     id: 'sat',
     name: 'SAT',
